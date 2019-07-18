@@ -1,0 +1,6 @@
+.vagrant/
+.vscode/
+*.retry
+ubuntu-*-cloudimg-console.log
+env
+__pycache__

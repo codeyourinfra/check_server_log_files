@@ -1,0 +1,8 @@
+---
+- name: Install Apache 2
+  apt:
+    name: apache2
+    update_cache: true
+- name: Config Apache 2
+  include_tasks: apache-conf.yml
+  loop: "{{ apache_confs }}"
