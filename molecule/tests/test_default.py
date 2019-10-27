@@ -30,4 +30,4 @@ def test_jenkins_log_file_download(host):
     assert cmd.rc == 0
     jenkins_log_file = host.file("jenkins.log")
     assert jenkins_log_file.exists
-    assert jenkins_log_file.contains("INFO: Jenkins is fully up and running")
+    assert jenkins_log_file.contains("Jenkins is fully up and running")
