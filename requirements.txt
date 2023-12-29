@@ -1,4 +1,4 @@
-ansible==7.0.0
+ansible==8.5.0
 molecule==2.22
 python-vagrant==0.5.15
 boto==2.49.0
